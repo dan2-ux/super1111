@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <style>
+        .nav{
+    background-color: black;
+    overflow: hidden;
+    height: 55px;
+}
+.nav img{
+    float:left;
+    width: 50px;
+    height: 100%;
+}
+.nav .dau, .nav .searchbar{
+    float:left;
+}
+
+.nav .hai{
+    float:right;
+}
+
+.nav a{
+   text-decoration: none;
+   color:white; 
+   padding:35px;
+   font-size:25px;
+   border:none;
+   margin:none;
+}
+
+.nav .dau, .nav .hai{
+    margin-top:12px;
+}
+
+.nav .dau .active{
+    background-color: blue;
+}
+
+.nav .searchbar input{
+    font-size:22px;
+    margin-top:12px;
+}
+.nav .searchbar .fa-solid.fa-magnifying-glass{
+    float:right;
+    font-size:30px;
+    margin-top:12px;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.nav .searchbar {
+    margin-right:25px;
+}
+
+.nav a:hover{
+    background-color: rgb(88, 88, 88);
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="/test/nhentai-logo-3.jpg">
+            <div class="searchbar">
+                <form action="#">
+                    <input type="text" name="search">
+                    <i class="fa-solid fa-magnifying-glass"></i></div>
+                </form>
+                <div class="dau">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Infomation</a>
+            </div>
+        <div class="hai">
+            <a href="#">Login</a>
+            <a href="#">Resigter</a>
+        </div>
+    </div>
+</body>
+</html>
